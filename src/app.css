@@ -1,0 +1,36 @@
+html {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  font-size: 14pt;
+}
+
+html, body, :global(#root){
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  color: blue;
+  background-color: grey;
+}
+.content {
+  padding: 0 4em;
+  min-width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.test {
+  color: red;
+}
+
+.testTwo {
+  background: yellow;
+}
